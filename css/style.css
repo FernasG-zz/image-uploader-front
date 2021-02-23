@@ -1,0 +1,228 @@
+body {
+    background: #fafafb;
+}
+
+.main-section {
+    position: absolute;
+    width: 402px;
+    height: 469px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #FFFFFF;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+    border-radius: 12px;
+}
+
+.main-section>* {
+    display: flex;
+    justify-content: center;
+}
+
+.name {
+    margin-top: 36px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    letter-spacing: -0.035em;
+    color: #4F4F4F;
+}
+
+p.info {
+    margin: 16px auto 29.62px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 15px;
+    text-align: center;
+    letter-spacing: -0.035em;
+    color: #828282;
+}
+
+#insert-block {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 auto;
+    background: #F6F8FB;
+    border: 1px dashed #97BEF4;
+    box-sizing: border-box;
+    border-radius: 12px;
+    height: 218.9px;
+    width: 338px;
+}
+
+#insert-block>* {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#insert-block div img {
+    width: 114.13px;
+    height: 88.24px;
+    /* margin-top: 35.84px; */
+}
+
+span {
+    margin-top: 18.91px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 18px;
+    text-align: center;
+    letter-spacing: -0.035em;
+    color: #BDBDBD
+}
+
+label {
+    width: 101px;
+    height: 31.98px;
+    background: #2F80ED;
+    border-radius: 8px;
+    cursor: pointer;
+    margin: 21.62px auto 0;
+
+    font-family: Noto Sans;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 30px;
+    text-align: center;
+    letter-spacing: -0.035em;
+    color: #FFFFFF;
+}
+
+/* IMAGE UPLOADED CSS */
+
+i.material-icons {
+    font-size: 35px;
+    color: #219653;
+    display: flex;
+    margin: 39.5px auto 12px;
+}
+
+h1 {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    letter-spacing: -0.035em;
+    color: #4F4F4F;
+}
+
+div.display-image {
+    margin: 25.35px auto 0;
+    width: 338px;
+    height: 224.4px;
+    background-size: cover;
+    border-radius: 12px;
+}
+
+div.image-link {
+    width: 338px;
+    height: 34px;
+    background: #F6F8FB;
+    border: 1px solid #E0E0E0;
+    box-sizing: border-box;
+    border-radius: 8px;
+    margin: 25.35px auto 0;
+}
+
+div.image-link p#link {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 8px;
+    line-height: 12px;
+    letter-spacing: -0.035em;
+    color: #4F4F4F;
+    position: absolute;
+    margin-top: 10px;
+    left: 40px;
+}
+
+div.image-link button {
+    position: absolute;
+    margin-top: 1px;
+    right: 36px;
+    width: 74px;
+    height: 30px;
+    background: #2F80ED;
+    border-radius: 8px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 8px;
+    line-height: 12px;
+    text-align: center;
+    letter-spacing: -0.035em;
+    color: #FFFFFF;
+}
+
+/* UPLOADING FILE CSS */
+
+.loading {
+    position: absolute;
+    width: 400.36px;
+    height: 143.57px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #FFFFFF;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+    border-radius: 12px;
+}
+
+p.text {
+    width: 100px;
+    height: 27px;
+    margin: 36px 0 32px 40px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    letter-spacing: -0.035em;
+    color: #4F4F4F;
+}
+
+.progress-el {
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* FOOTER */
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+footer>* {
+    display: flex;
+    justify-content: center;
+}
+
+footer span {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: #A9A9A9;
+}
+
+footer span u {
+    margin: 0 5px;
+    color: #383838;
+}

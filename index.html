@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css">
+
+    <!-- Script -->
+    <script src="js/script.js"></script>
+
+    <title>Image Uploader</title>
+</head>
+<body>
+    <main>
+        <div class="main-section">
+            <h1 class="name">Upload your image</h1>
+        
+            <p class="info">File should be Jpeg, Png,...</p>
+        
+            <div id="insert-block" ondrop="dropHandler(event)" ondragover="dragOverHandler(event)">
+                <div>
+                    <img src="assets/image.svg" alt="">
+                </div>
+        
+                <div>
+                    <span>Drag & Drop your image here</span>
+                </div>
+            </div>
+        
+            <span>Or</span>
+        
+            <label class="ok" for="form-input">Choose a file</label>
+        
+            <form method="POST" enctype="multipart/form-data">
+                <input type="file" hidden oninput="submitForm(this.files[0])" accept="image/*" id="form-input">
+            </form>
+        </div>
+    </main>
+
+    <footer>
+        <span>created by <u>Fernas</u> - devChallenges.io</span>
+    </footer>
+</body>
+</html>
